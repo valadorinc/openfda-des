@@ -55,7 +55,6 @@ i. created a prototype that works on multiple devices and presents a responsive 
 Valador created a design prototype that works on any device with a web browser (David/Phil list browsers).  The design prototype incorporates responsive design which allows the prototype to work on mobile devices with any size screen as long as the device is running a compatible browser.
  
 
- 
 
 j. provided sufficient documentation to install and run their prototype on another machine
 Valador included an installation guide:  <<David/Phil include installation steps>>
