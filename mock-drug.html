@@ -1,0 +1,71 @@
+<!-- Static HTML/CSS mockup for front end base templating -->
+<!DOCTYPE html>
+<html ng-app="mainModule">
+<head>
+    <title>ReactionRX</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" /> 
+    <link href="css/jquery-ui.min-1.9.2.css" rel="stylesheet" media="screen" />
+
+    <!-- customizations -->
+    <link href="css/styles.css" rel="stylesheet" media="screen" />
+
+    <!-- bootstrap gallery -->
+    <script src="js/photo-gallery.js"></script>
+    <!-- bootstrap gallery end -->
+</head>
+<body>
+
+<header>
+    <h1><a href="/">Reaction RX</a></h1>
+</header>
+
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3"></div> 
+      
+      <div class="col-md-6">
+
+        <ul class="nav nav-pills">
+          <li class="text-center tab-drug active "><a data-toggle="tab" href="#search-drug">DRUG</a></li>
+          <li class="text-center tab-reaction"><a data-toggle="tab" href="#search-reaction">ADVERSE REACTION</a></li>
+  		  </ul>
+  		  
+  		  <div class="tab-content">
+
+  		    <div id="search-drug" class="tab-pane active search-form-container gradient-drug-search">
+  		      <form class="search-form drug-search">
+              <input type="text" class="form-control input-lg" value="NITROGLYCERIN" />
+            </form>
+
+            <table class="table table-responsive rx-table" id="drug_table"><thead><tr><th>Reaction</th><th>Occurrences</th></tr></thead><tbody><tr><td>PAIN</td><td>1576</td></tr><tr><td>CHEST PAIN</td><td>1412</td></tr><tr><td>MYOCARDIAL INFARCTION</td><td>1388</td></tr><tr><td>DYSPNOEA</td><td>1378</td></tr><tr><td>ANXIETY</td><td>1299</td></tr><tr><td>RENAL FAILURE</td><td>1253</td></tr><tr><td>INJURY</td><td>1110</td></tr><tr><td>NAUSEA</td><td>1072</td></tr><tr><td>DIZZINESS</td><td>956</td></tr><tr><td>CARDIAC FAILURE CONGESTIVE</td><td>866</td></tr><tr><td>ASTHENIA</td><td>850</td></tr><tr><td>UNEVALUABLE EVENT</td><td>830</td></tr><tr><td>FATIGUE</td><td>755</td></tr><tr><td>EMOTIONAL DISTRESS</td><td>753</td></tr><tr><td>DEPRESSION</td><td>751</td></tr><tr><td>HYPOTENSION</td><td>750</td></tr><tr><td>DEATH</td><td>732</td></tr><tr><td>FEAR</td><td>708</td></tr><tr><td>DRUG INEFFECTIVE</td><td>708</td></tr><tr><td>CORONARY ARTERY DISEASE</td><td>690</td></tr><tr><td>FALL</td><td>683</td></tr><tr><td>RENAL FAILURE ACUTE</td><td>682</td></tr><tr><td>HYPERTENSION</td><td>681</td></tr><tr><td>HEADACHE</td><td>678</td></tr><tr><td>VOMITING</td><td>669</td></tr><tr><td>DIARRHOEA</td><td>634</td></tr><tr><td>CEREBROVASCULAR ACCIDENT</td><td>613</td></tr><tr><td>STRESS</td><td>605</td></tr><tr><td>ANAEMIA</td><td>605</td></tr><tr><td>RENAL INJURY</td><td>600</td></tr><tr><td>PNEUMONIA</td><td>595</td></tr><tr><td>OEDEMA PERIPHERAL</td><td>593</td></tr><tr><td>ANHEDONIA</td><td>577</td></tr><tr><td>RENAL IMPAIRMENT</td><td>568</td></tr><tr><td>ANGINA PECTORIS</td><td>553</td></tr><tr><td>ATRIAL FIBRILLATION</td><td>551</td></tr><tr><td>BACK PAIN</td><td>534</td></tr><tr><td>PAIN IN EXTREMITY</td><td>532</td></tr><tr><td>MULTI-ORGAN FAILURE</td><td>474</td></tr><tr><td>ARTHRALGIA</td><td>438</td></tr><tr><td>SYNCOPE</td><td>434</td></tr><tr><td>MALAISE</td><td>418</td></tr><tr><td>CARDIAC DISORDER</td><td>410</td></tr><tr><td>PYREXIA</td><td>403</td></tr><tr><td>COUGH</td><td>403</td></tr><tr><td>CONFUSIONAL STATE</td><td>402</td></tr><tr><td>ABDOMINAL PAIN</td><td>401</td></tr><tr><td>DEHYDRATION</td><td>395</td></tr><tr><td>WEIGHT DECREASED</td><td>390</td></tr><tr><td>BLOOD GLUCOSE INCREASED</td><td>382</td></tr><tr><td>DRUG INTERACTION</td><td>369</td></tr><tr><td>CHRONIC OBSTRUCTIVE PULMONARY DISEASE</td><td>366</td></tr><tr><td>DIABETES MELLITUS</td><td>361</td></tr><tr><td>HYPERHIDROSIS</td><td>352</td></tr><tr><td>ACUTE MYOCARDIAL INFARCTION</td><td>351</td></tr><tr><td>PALPITATIONS</td><td>340</td></tr><tr><td>INSOMNIA</td><td>340</td></tr><tr><td>BRADYCARDIA</td><td>337</td></tr><tr><td>CARDIAC ARREST</td><td>334</td></tr><tr><td>GASTROINTESTINAL HAEMORRHAGE</td><td>326</td></tr><tr><td>CHEST DISCOMFORT</td><td>326</td></tr><tr><td>URINARY TRACT INFECTION</td><td>323</td></tr><tr><td>ECONOMIC PROBLEM</td><td>314</td></tr><tr><td>LOSS OF CONSCIOUSNESS</td><td>311</td></tr><tr><td>CONSTIPATION</td><td>299</td></tr><tr><td>RASH</td><td>296</td></tr><tr><td>PRURITUS</td><td>293</td></tr><tr><td>GASTROOESOPHAGEAL REFLUX DISEASE</td><td>290</td></tr><tr><td>CARDIAC FAILURE</td><td>284</td></tr><tr><td>DECREASED APPETITE</td><td>272</td></tr><tr><td>ABDOMINAL PAIN UPPER</td><td>269</td></tr><tr><td>MYALGIA</td><td>268</td></tr><tr><td>MITRAL VALVE INCOMPETENCE</td><td>263</td></tr><tr><td>BLOOD PRESSURE INCREASED</td><td>261</td></tr><tr><td>RESPIRATORY FAILURE</td><td>259</td></tr><tr><td>CONDITION AGGRAVATED</td><td>259</td></tr><tr><td>WEIGHT INCREASED</td><td>257</td></tr><tr><td>HYPOAESTHESIA</td><td>255</td></tr><tr><td>PLEURAL EFFUSION</td><td>248</td></tr><tr><td>MUSCLE SPASMS</td><td>243</td></tr><tr><td>HAEMOGLOBIN DECREASED</td><td>239</td></tr><tr><td>THROMBOCYTOPENIA</td><td>220</td></tr><tr><td>GAIT DISTURBANCE</td><td>209</td></tr><tr><td>PARAESTHESIA</td><td>208</td></tr><tr><td>FEELING ABNORMAL</td><td>208</td></tr><tr><td>CORONARY ARTERY OCCLUSION</td><td>205</td></tr><tr><td>HYPERLIPIDAEMIA</td><td>204</td></tr><tr><td>TREMOR</td><td>190</td></tr><tr><td>CONTUSION</td><td>172</td></tr><tr><td>TRANSIENT ISCHAEMIC ATTACK</td><td>171</td></tr><tr><td>BRONCHITIS</td><td>153</td></tr><tr><td>DYSPHAGIA</td><td>148</td></tr><tr><td>CARDIOMEGALY</td><td>141</td></tr><tr><td>ANGINA UNSTABLE</td><td>134</td></tr><tr><td>PULMONARY OEDEMA</td><td>127</td></tr><tr><td>SOMNOLENCE</td><td>125</td></tr><tr><td>VISION BLURRED</td><td>123</td></tr><tr><td>HYPOKALAEMIA</td><td>115</td></tr><tr><td>CONVULSION</td><td>112</td></tr><tr><td>BLOOD CREATININE INCREASED</td><td>109</td></tr></tbody></table>
+          
+  		    </div>
+  		  
+  		    <div id="search-reaction" class="tab-pane search-form-container gradient-reaction-search">
+  		      <form class="search-form reaction-search">
+              <input type="text" class="form-control input-lg" placeholder="Adverse Reaction" />
+            </form>
+  		    </div>
+
+  		  </div>
+  		  
+      </div><!--/.col-md-6-->
+
+      <div class="col-md-3"> </div>      
+  </div><!--/.row-->
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>
+
+
