@@ -43,15 +43,13 @@ header h1 a {
   background: #ff6600;
 }
 
-/* search forms */
+/* search forms, results */
 
 .search-form-container {
-  margin: 0;
-  padding: 0;
-}
-
-.search-form {
   padding: 1.5em;
+  color: #eee;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 2em;
 }
 
 .gradient-drug-search {
@@ -75,3 +73,11 @@ header h1 a {
   background: linear-gradient(#ff6600, #cc3300);
   /* Standard syntax */
 }
+
+/* reaction and drug tables */
+
+.rx-table th {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
