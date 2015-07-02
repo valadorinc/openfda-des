@@ -1,79 +1,77 @@
-#results {
-  display: none;
-  width: 204px;
-  display: absolute;
-  border: 1px solid #c0c0c0;
+/* move to styles.css later */
+
+/* header */
+
+header h1 {
+  margin: 0;
 }
-#results .item {
-  padding: 3px;
-  font-family: Helvetica;
-  border-bottom: 1px solid #c0c0c0;
+header h1 a {
+  display: block;
+  text-indent: -133337em;
+  margin: .25em auto;
+  height: 120px;
+  background-image: url(images/reactionrx.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-color: transparent;
+  opacity: .5;
 }
-#results .item:last-child {
-  border-bottom: 0px;
+
+/* tabs */
+.nav li {
+  width: 49.8%;
+  border-radius: 10px 10px 0 0;
 }
-#results .item:hover {
-  background-color: #f2f2f2;
-  cursor: pointer;
+
+.nav-pills a,
+.nav-pills a:focus,
+.nav-pills a:hover {
+  background: inherit !important;
 }
-/* Override Bootstrap Styles */
-.other-color {
-  background: green !important;
+
+.nav-pills a {
+  font-weight: bold;
+  color: #eee;
 }
-/* Spacers */
-.spacer-top-40 {
-  margin-top: 40px;
+
+.tab-drug {
+  background: #154898;
 }
-.spacer-bottom-40 {
-  margin-bottom: 40px;
+
+.tab-reaction {
+  background: #ff6600;
 }
-.spacer-top-30 {
-  margin-top: 30px;
+
+/* search forms */
+
+.search-form-container {
+  margin: 0;
+  padding: 0;
 }
-.spacer-bottom-30 {
-  margin-bottom: 30px;
+
+.search-form {
+  padding: 1.5em;
 }
-.spacer-top-20 {
-  margin-top: 20px;
+
+.gradient-drug-search {
+  background: -webkit-linear-gradient(#154898, #002244);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#154898, #002244);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#154898, #002244);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#154898, #002244);
+  /* Standard syntax */
 }
-.spacer-bottom-20 {
-  margin-bottom: 20px;
-}
-.spacer-top-15 {
-  margin-top: 15px;
-}
-.spacer-bottom-15 {
-  margin-bottom: 15px;
-}
-.spacer-top-10 {
-  margin-top: 15px;
-}
-.spacer-bottom-10 {
-  margin-bottom: 15px;
-}
-.spacer-padding-bottom-5 {
-  padding-bottom: 5px !important;
-}
-.spacer-padding-top-5 {
-  padding-top: 5px !important;
-}
-/* Fonts */
-.searchboxtext {
-  font-family: Verdana, Arial, sans-serif;
-  font-size: 1.1em !important;
-  text-transform: uppercase;
-  color: #222222 !important;
-}
-/* Headings */
-.heading {
-  margin: 1em 0 0.9em 0;
-  font-weight: 600;
-  font-family: 'Titillium Web', sans-serif;
-  position: relative;
-  text-shadow: 0 8px 1px rgba(0, 0, 0, 0.4);
-  font-size: 55px;
-  line-height: 40px;
-  color: #355681;
-  /* text-transform: uppercase; */
-  /* border-bottom: 1px solid rgba(53, 86, 129, 0.3); */
+
+.gradient-reaction-search {
+  background: -webkit-linear-gradient(#ff6600, #cc3300);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ff6600, #cc3300);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ff6600, #cc3300);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ff6600, #cc3300);
+  /* Standard syntax */
 }

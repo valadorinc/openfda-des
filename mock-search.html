@@ -1,0 +1,65 @@
+<!-- Static HTML/CSS mockup for front end base templating -->
+<!DOCTYPE html>
+<html ng-app="mainModule">
+<head>
+    <title>ReactionRX</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" /> 
+    <link href="css/jquery-ui.min-1.9.2.css" rel="stylesheet" media="screen" />
+
+    <!-- customizations -->
+
+    <!-- bootstrap gallery -->
+    <script src="js/photo-gallery.js"></script>
+    <!-- bootstrap gallery end -->
+</head>
+<body>
+
+<header>
+    <h1><a href="/">Reaction RX</a></h1>
+</header>
+
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3"></div> 
+      
+      <div class="col-md-6">
+
+        <ul class="nav nav-pills">
+          <li class="text-center tab-drug active "><a data-toggle="tab" href="#search-drug">DRUG</a></li>
+          <li class="text-center tab-reaction"><a data-toggle="tab" href="#search-reaction">ADVERSE REACTION</a></li>
+  		  </ul>
+  		  
+  		  <div class="tab-content">
+
+  		    <div id="search-drug" class="tab-pane active search-form-container">
+  		      <form class="search-form drug-search gradient-drug-search">
+              <input type="text" class="form-control input-lg" placeholder="Drug Name" />
+            </form>
+  		    </div>
+  		  
+  		    <div id="search-reaction" class="tab-pane search-form-container">
+  		      <form class="search-form reaction-search gradient-reaction-search">
+              <input type="text" class="form-control input-lg" placeholder="Adverse Reaction" />
+            </form>
+  		    </div>
+
+  		  </div>
+  		  
+      </div><!--/.col-md-6-->
+
+      <div class="col-md-3"> </div>      
+  </div><!--/.row-->
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>
