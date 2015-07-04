@@ -78,8 +78,8 @@
             <div id="drug-carousel" class="carousel slide" data-ride="carousel">
               <!-- Indicators -->
               <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#drug-carousl" data-slide-to="0" class="active"></li>
+                <li data-target="#drug-carousel" data-slide-to="1"></li>
               </ol>
             
               <!-- Wrapper for slides -->
@@ -127,5 +127,39 @@
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="js/ie10-viewport-bug-workaround.js"></script>
 
+<script>
+/* carousel height normalizer
+   via https://coderwall.com/p/uf2pka/normalize-twitter-bootstrap-carousel-slide-heights
+*/
+
+
+function carouselNormalization() {
+  var items = $('#carousel-example-generic .item'), //grab all slides
+      heights = [], //create empty array to store height values
+      tallest; //create variable to make note of the tallest slide
+  
+  if (items.length) {
+      function normalizeHeights() {
+          items.each(function() { //add heights to array
+              heights.push($(this).height()); 
+          });
+          tallest = Math.max.apply(null, heights); //cache largest value
+          items.each(function() {
+              $(this).css('min-height',tallest + 'px');
+          });
+      };
+      normalizeHeights();
+  
+      $(window).on('resize orientationchange', function () {
+          tallest = 0, heights.length = 0; //reset vars
+          items.each(function() {
+              $(this).css('min-height','0'); //reset min-height
+          }); 
+          normalizeHeights(); //run it again 
+      });
+  }
+}
+
+</script>
 </body>
 </html>
