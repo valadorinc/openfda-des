@@ -1,3 +1,4 @@
+#Pool1 Submission#
 A. assigned one leader and gave that person authority and responsibility and held that person accountable for the quality of the prototype submitted
 Valador follows the Agile Scrum methodology for design and development.  During the kick-off meeting for this Project, Valador assigned Kevin Sadeghian as the Product owner, then worked to define the scope of the project based on the RFQ content.  Mr. Sadeghian is a Certified Scrum Product Owner (CSPO) and was provided with the authority and responsibility to complete the Project; and was held accountable for the quality and timeliness of the final prototype and accompanying artifacts.
 
