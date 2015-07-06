@@ -39,7 +39,7 @@ Valador created a design prototype that works on any device with a web browser. 
 
 
 j. provided sufficient documentation to install and run their prototype on another machine
-Valador included an installation guide:  See Github document.
+Valador included an installation guide:  See [Github document](https://github.com/valadorinc/openfda-pool1/blob/master/docs/InstallGuide_pool1.txt). 
 
 k. prototype and underlying platforms used to create and run the prototype are openly licensed and free of charge.
 The prototype and underlying platforms used to create and run the prototype are openly licensed and free of charge.  Valador deployed the application making use of open licensed services such as Google Charts, GitHub, and DailyMed (dailymed.nlm.nih.gov).  Platforms used in the development include Bootstrap, AngularJS, PHP, Java, and Linux.
