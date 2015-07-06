@@ -1,3 +1,25 @@
+<? 
+
+$mockups = array(
+  'mock-search',
+  'mock-drug',
+  'mock-reaction',
+  'mock-drug-single',
+);
+
+print "<ul style='font: 1.5em/2em Helvetica normal; color: #666;'>\n";
+foreach ($mockups as $m) {
+  printf("<li><a href='%s.html'>%s</a></li>\n", $m, $m);
+}
+print "</ul>\n";
+
+?>
+
+
+
+/*
+
+<!-- old design commented out -->
 
 <!-- $contents = file_get_contents('index.html'); -->
 <!-- echo $contents; -->
@@ -152,3 +174,5 @@
 
 </body>
 </html>
+
+*/ ?>
