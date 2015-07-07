@@ -25,10 +25,10 @@ Valador used our internal style guide to develop the design and related artifact
 
 ###(F) Frontend or Client Side Technologies
 Valador has made use of the following technologies during this project:
-•	Bootstrap
-•	Google Charts
-•	JQuery
-•	AngularJS
+*	Bootstrap
+*	Google Charts
+*	JQuery
+*	AngularJS
 
 ###(G) Usability Tests
 During the design phase, Valador performed usability testing with the group of 5 people/stakeholders who participated in the focus group study following the kick-off meeting.  The group was asked to evaluate the Design prototype for usability and provided feedback that was implemented in the design and development phases of the project.  The project team frequently involved these stakeholders/people, specifically during sprint planning, sprint reviews, and ad-hoc as needed, in order to gain a clear understanding of their needs and requirements.
