@@ -15,7 +15,7 @@ The resource estimates for each were factored into the project budget, documente
 
 Valador set up workspace for the duration of the project in one of our conference rooms with four workstations, a projector, and a whiteboard.  The team worked in the conference room which allowed problems to be solved quickly through collaboration. Mr. Franzini was working remotely so the team utilized Skype, Webex meetings, and teleconferences to include him in the collaborative process. 
 
-#(C) User-Centric Prototype Design Process
+###(C) User-Centric Prototype Design Process
 Immediately following the kick-off meeting, Valador held a focus group with five employees who were present in the office but not involved in the project to understand what people need and determine how the openFDA data could be used.  The Project team explained available data sets and asked the focus group what they would find useful.  Several possible ideas were suggested and throughout the meeting a consensus was reached that the reactionRX was the most appropriate and useful application for the group; additionally, these same employees (focus group / Stakeholders) evaluated the User Interface mock-ups and suggested changes that would make it easier to use and more visually appealing during the first sprint review, once a Minimum Viable Product was available.
 
 ###(D) Human-Centered Design Techniques
